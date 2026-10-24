@@ -2598,6 +2598,11 @@ input, select, textarea {
 			display: block;
 		}
 
+		.image video {
+			display: block;
+			width: 100%;
+		}
+		
 		.image.left, .image.right {
 			max-width: 40%;
 		}

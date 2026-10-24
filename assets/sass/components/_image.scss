@@ -17,6 +17,11 @@
 			display: block;
 		}
 
+		video{
+			border-radius: _size(border-radius);
+			display: block;
+			width: 100%;
+		}
 		&.left,
 		&.right {
 			max-width: 40%;
