@@ -1,0 +1,14 @@
+/* Formulario de propuestas */
+
+	.form-mensaje {
+		border-left: solid 4px #18bfef;
+		background: rgba(24, 191, 239, 0.1);
+		color: #212931;
+		font-size: 0.9rem;
+		margin: 1.5rem 0 0 0;
+		padding: 0.75rem 1rem;
+	}
+
+		.form-mensaje[hidden] {
+			display: none;
+		}
