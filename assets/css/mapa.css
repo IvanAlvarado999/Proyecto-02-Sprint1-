@@ -1,0 +1,23 @@
+/* Mapa de ubicación */
+
+	.mapa {
+		aspect-ratio: 16 / 9;
+		border: solid 2px #212931;
+		margin: 0 0 2rem 0;
+		width: 100%;
+	}
+
+		.mapa iframe {
+			border: 0;
+			display: block;
+			height: 100%;
+			width: 100%;
+		}
+
+	@media screen and (max-width: 736px) {
+
+		.mapa {
+			aspect-ratio: 4 / 3;
+		}
+
+	}
